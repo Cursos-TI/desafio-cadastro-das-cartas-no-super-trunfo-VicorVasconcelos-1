@@ -67,5 +67,11 @@ int main() {
     printf("PIB: %.2f\n", pib1);
     printf("Pontos Turisticos: %d\n", pontos1);
 
+    scanf("%*c"); // Limpa o buffer de entrada
+    printf("\nPressione Enter para sair...");
+    getchar(); // Aguarda o usuário pressionar Enter
+    // Fim do programa
+
+
     return 0;
 }
